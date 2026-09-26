@@ -29,6 +29,31 @@ This project focuses on the **database design and SQL implementation** of a Libr
 It does not include an application/UI layer. The main objective is to demonstrate database design, relational modeling, SQL Server
 
 ---
+## 📁 Project Structure
+
+```text
+Library-Database-System/
+│
+├── README.md
+│
+├── docs/
+|   └── Requirements.pdf
+│   └── Entities.md
+│   └── Relationships.md
+│
+├── ERD/
+│   └── ERD.png
+│
+├── Schema/
+│   └── Schema.png
+│
+└── sql/
+    ├── 01-Database.sql
+    ├── 02-Tables.sql
+    ├── 03-Constraints.sql
+    ├── 04-Data.sql
+    └── 05-Queries.sql
+```
 
 ## 🏗️ Main Entities
 
@@ -115,7 +140,7 @@ The ERD was mapped into a relational database schema using primary keys and fore
 
 * **Microsoft SQL Server**
 * **Visual Studio Code .dio for(ERD , Schema)**
-* **Git & GitHub**
+* **GitHub**
 
 ---
 
@@ -123,7 +148,7 @@ The ERD was mapped into a relational database schema using primary keys and fore
 
 **Mohamed Ahmed**
 
-Information Technology Graduate |ASP.Net Backend Developer
+Information Technology Graduate | ASP.Net Backend Developer
 
 * LinkedIn: [Mohamed Ahmed](https://www.linkedin.com/in/mohamedahmed2608/)
 
