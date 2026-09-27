@@ -1,6 +1,6 @@
 # 📚 Library Database System
 
-A relational **Library Database System** designed using **Entity-Relationship Modeling (ERD)** and **Relational Schema Mapping**, and implemented using **Microsoft SQL Server .
+A relational **Library Database System** designed using **Entity-Relationship Modeling (ERD)** and **Relational Schema Mapping**, and implemented using **Microsoft SQL Server**.
 
 The system manages library employees, users, books, authors, publishers, categories, shelves, floors, and book borrowing operations.
 
@@ -18,7 +18,7 @@ The goal of this project is to design and implement a database that represents t
 * Recursive Relationships
 * Ternary Relationships
 * Data Integrity Constraints
-* SQL Server 
+* SQL Server
 
 ---
 
@@ -26,9 +26,10 @@ The goal of this project is to design and implement a database that represents t
 
 This project focuses on the **database design and SQL implementation** of a Library Management System.
 
-It does not include an application/UI layer. The main objective is to demonstrate database design, relational modeling, SQL Server
+It does not include an application/UI layer. The main objective is to demonstrate database design, relational modeling, and SQL Server implementation.
 
 ---
+
 ## 📁 Project Structure
 
 ```text
@@ -37,10 +38,10 @@ Library-Database-System/
 ├── README.md
 │
 ├── docs/
-|   └── Requirements.pdf
-│    └── Entities And Relationships.md
-|    └── Test_Queries.pdf
-|
+│   ├── Requirements.pdf
+│   ├── Entities And Relationships.md
+│   └── Test_Queries.pdf
+│
 ├── ERD/
 │   └── ERD.png
 │
@@ -54,9 +55,10 @@ Library-Database-System/
     ├── 04-Data.sql
     └── 05-Queries.sql
 ```
+
 ## 📊 ERD
 
-The Entity-Relationship Diagram represents the entities, attributes, relationships, and cardinalities of the system.
+The **Entity-Relationship Diagram** represents the entities, attributes, relationships, and cardinalities of the system.
 
 ---
 
@@ -74,11 +76,13 @@ The database contains the following main entities:
 * **Shelf**
 
 ---
+
 ## 🗂️ Relational Schema
 
 The ERD was mapped into a relational database schema using primary keys and foreign keys to maintain relationships and data integrity.
 
 ---
+
 ## 🔗 Main Relationships
 
 ### Employee
@@ -144,9 +148,6 @@ Each book:
 
 **Mohamed Ahmed**
 
-Information Technology Graduate | ASP.Net Backend Developer
+Information Technology Graduate | ASP.NET Backend Developer
 
 * LinkedIn: [Mohamed Ahmed](https://www.linkedin.com/in/mohamedahmed2608/)
-
-```
-```
