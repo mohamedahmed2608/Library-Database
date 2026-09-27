@@ -24,7 +24,7 @@
 | :------------: | :------: | :---------: | :--------: |
 |  Floor_Number  |   int    | Primary Key |     -      |
 | NumberOfBlocks |   int    |      -      |     -      |
-	**Relationshiops:**
+	Relationshiops:
 
 | Relashionship |       Between        |                                          Description                                          |  Attributs  | Datatype | Degree | Cardinality                 | Participation                       |
 | :-----------: | :------------------: | :-------------------------------------------------------------------------------------------: | :---------: | :------: | :----: | :-------------------------- | :---------------------------------- |
@@ -38,7 +38,7 @@
 |   Name    | Varchar  |  Not Null   |
 |   Email   | Varchar  |   Unique    |
 |  Phones   | Varchar  |   Unique    |
-	**Relationshiops:**
+	Relationshiops:
 
 | Relashionship |      Between      |                                             Description                                              | Degree | Cardinality                         | Participation                                |
 | :-----------: | :---------------: | :--------------------------------------------------------------------------------------------------: | :----: | :---------------------------------- | :------------------------------------------- |
@@ -50,7 +50,7 @@
 | :-------: | :------: | :---------: | :--------: |
 |  Book_ID  |   Int    | Primary Key |  Identity  |
 |   Title   | Varchar  |   Unique    |     -      |
-	**Relationshiops:**
+	Relationshiops:
 
 | Relashionship |          Between           |                                      Description                                      |           Attributs            | Datatype                 | Degree  | Cardinality                               |  Participation  |
 | :-----------: | :------------------------: | :-----------------------------------------------------------------------------------: | :----------------------------: | :----------------------- | :-----: | :---------------------------------------- | :-------------: |
@@ -76,7 +76,7 @@
 | :------------: | :------: | :---------: |
 |  Publisher_ID  |   int    | Primary Key |
 | Publisher_Name | Varchar  |   NotNull   |
-	**Relationshiops:**
+	Relationshiops:
 
 | Relashionship |      Between       |                               Description                               | Degree | Cardinality                       | Participation                             |
 | :-----------: | :----------------: | :---------------------------------------------------------------------: | ------ | --------------------------------- | ----------------------------------------- |
@@ -87,7 +87,7 @@
 | :---------: | :------: | :---------: |
 | Category_ID |   int    | Primary Key |
 |  Cat_Name   | Varchar  |   NotNull   |
-	**Relationshiops:**
+	Relationshiops:
 
 | Relashionship |      Between      |                                  Description                                  | Degree | Cardinality                         | Participation                            |
 | :-----------: | :---------------: | :---------------------------------------------------------------------------: | ------ | :---------------------------------- | :--------------------------------------- |
@@ -98,7 +98,7 @@
 | Attributs | Datatype | Constrains  |
 | :-------: | :------: | :---------: |
 |   Code    |   int    | Primary Key |
-	**Relationshiops:**
+	Relationshiops:
 
 | Relashionship |     Between     |                                      Description                                       | Degree | Cardinality                               | Participation                                |
 | :-----------: | :-------------: | :------------------------------------------------------------------------------------: | ------ | :---------------------------------------- | :------------------------------------------- |
