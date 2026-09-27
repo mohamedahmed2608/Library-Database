@@ -58,7 +58,12 @@ Library-Database-System/
 
 ## 📊 ERD
 
-The **Entity-Relationship Diagram** represents the entities, attributes, relationships, and cardinalities of the system.
+📊 ERD
+
+The Entity-Relationship Diagram representing the entities and relationships of the Library Database System.
+
+[View ERD](./ERD/ERD.png)  
+[Download ERD Source](./ERD/ERD.dio)
 
 ---
 
