@@ -138,9 +138,8 @@ The ERD was mapped into a relational database schema using primary keys and fore
 
 ## 🛠️ Technologies
 
+* **Draw.io**
 * **Microsoft SQL Server**
-* **Visual Studio Code .dio for(ERD , Schema)**
-* **GitHub**
 
 ---
 
