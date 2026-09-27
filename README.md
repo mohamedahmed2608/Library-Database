@@ -43,12 +43,16 @@ Library-Database-System/
 │   └── Test_Queries.pdf
 │
 ├── ERD/
-│   └── ERD.png
-│    └── ERD.dio
+│   ├── ERD.png
+│   ├── ERD.dio
+|   ├── Cardinality_Participation_Degree.png
+|   └── Attribute.png
 |
 ├── Schema/
-│   └── Schema.png
-│    └── Schema.dio
+│   ├── Schema.png
+│   ├── Schema.dio
+|   ├── Mapping_Steps.png
+|   └── Schema_Steps.png
 |
 └── sql/
     ├── 01-Database.sql
@@ -69,82 +73,26 @@ The Entity-Relationship Diagram representing the entities and relationships of t
 
 ## 🏗️ Main Entities
 
-The database contains the following main entities:
-
-* **Employee**
-* **Floor**
-* **User**
-* **Book**
-* **Author**
-* **Publisher**
-* **Category**
-* **Shelf**
-
+## All Main Entites will find :
+[View Main Entities](./docs/Entities_And_Relationships.md)  
 ---
 
 ## 🗂️ Relational Schema (Mapping)
 
 The ERD was mapped into a relational database schema using primary keys and foreign keys to maintain relationships and data integrity.
 
+[View Schema](./Schema/Schema.png)  
+[Download Schema Source](./Schema/schema.dio)
 ---
 
 ## 🔗 Main Relationships
-
-### Employee
-
-* An employee can supervise multiple employees.
-* Each employee has a supervisor.
-* Employees work on a specific floor.
-* Employees can record multiple users.
-* An employee can manage a floor.
-
-### Floor
-
-* Each floor is managed by an employee.
-* A floor contains multiple employees.
-* A floor contains multiple shelves.
-
-### User
-
-* Each user is recorded by an employee.
-* An employee can record multiple users.
-* Users can borrow books.
-
-### Book
-
-Each book:
-
-* Belongs to one publisher.
-* Belongs to one category.
-* Is assigned to one shelf.
-* Can have multiple authors.
-* Can be borrowed by users.
-
-### Author
-
-* An author can be associated with multiple books.
-* A book can have multiple authors.
-
-### Publisher
-
-* A publisher can publish multiple books.
-* Each book has one publisher.
-
-### Category
-
-* A category can contain multiple books.
-* Each book belongs to one category.
-
-### Shelf
-
-* A shelf can contain multiple books.
-* Each shelf is located on one floor.
-
+## All Main Relationships and Entities will find :
+[View Main Relationships and Entities](./docs/Entities_And_Relationships.md)  
 ---
 
 ## 🛠️ Technologies
 
-* **Draw.io**
+* **Visual Studio Code (.dio)**
 * **Microsoft SQL Server**
 
 ---
