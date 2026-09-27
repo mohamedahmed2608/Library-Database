@@ -54,6 +54,11 @@ Library-Database-System/
     ├── 04-Data.sql
     └── 05-Queries.sql
 ```
+## 📊 ERD
+
+The Entity-Relationship Diagram represents the entities, attributes, relationships, and cardinalities of the system.
+
+---
 
 ## 🏗️ Main Entities
 
@@ -69,7 +74,11 @@ The database contains the following main entities:
 * **Shelf**
 
 ---
+## 🗂️ Relational Schema
 
+The ERD was mapped into a relational database schema using primary keys and foreign keys to maintain relationships and data integrity.
+
+---
 ## 🔗 Main Relationships
 
 ### Employee
@@ -121,18 +130,6 @@ Each book:
 
 * A shelf can contain multiple books.
 * Each shelf is located on one floor.
-
----
-
-## 📊 ERD
-
-The Entity-Relationship Diagram represents the entities, attributes, relationships, and cardinalities of the system.
-
----
-
-## 🗂️ Relational Schema
-
-The ERD was mapped into a relational database schema using primary keys and foreign keys to maintain relationships and data integrity.
 
 ---
 
