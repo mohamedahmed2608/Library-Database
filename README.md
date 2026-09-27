@@ -38,8 +38,6 @@ Library-Database-System/
 │
 ├── docs/
 |   └── Requirements.pdf
-│   └── Entities.md
-│   └── Relationships.md
 │
 ├── ERD/
 │   └── ERD.png
