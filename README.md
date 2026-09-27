@@ -44,10 +44,12 @@ Library-Database-System/
 │
 ├── ERD/
 │   └── ERD.png
-│
+│    └── ERD.dio
+|
 ├── Schema/
 │   └── Schema.png
-│
+│    └── Schema.dio
+|
 └── sql/
     ├── 01-Database.sql
     ├── 02-Tables.sql
@@ -56,9 +58,7 @@ Library-Database-System/
     └── 05-Queries.sql
 ```
 
-## 📊 ERD
-
-📊 ERD
+## 📊 Entity Relationship Diagram (ERD)
 
 The Entity-Relationship Diagram representing the entities and relationships of the Library Database System.
 
@@ -82,7 +82,7 @@ The database contains the following main entities:
 
 ---
 
-## 🗂️ Relational Schema
+## 🗂️ Relational Schema (Mapping)
 
 The ERD was mapped into a relational database schema using primary keys and foreign keys to maintain relationships and data integrity.
 
