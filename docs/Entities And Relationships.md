@@ -1,3 +1,5 @@
+# 📍This is the file containing the Entities and Relationships extracted from the Requirements Document (RD).
+
  1. **Employees:**
 
 |    Attributs    | DataType |     Constrains      | Constrains |
