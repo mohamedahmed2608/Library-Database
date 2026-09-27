@@ -39,6 +39,7 @@ Library-Database-System/
 ├── docs/
 |   └── Requirements.pdf
 │    └── Entities And Relationships.md
+|    └── Test_Queries.pdf
 |
 ├── ERD/
 │   └── ERD.png
