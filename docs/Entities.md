@@ -11,7 +11,6 @@
 |     Bounse      |   int    |      Default 0      |     -      |
 |     Address     | Varchar  |          -          |     -      |
 |   PhoneNumber   | varchar  |       Unique        |     -      |
-| Emo_Supervissor |   int    |          -          |     -      |
 
 2. **Floors**:
 
