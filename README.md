@@ -55,11 +55,9 @@ Library-Database-System/
 |   └── Schema_Steps.png
 |
 └── sql/
-    ├── 01-Database.sql
-    ├── 02-Tables.sql
-    ├── 03-Constraints.sql
-    ├── 04-Data.sql
-    └── 05-Queries.sql
+    ├── Library.sql
+    ├── SQL_Server_Diagram.JPG
+    └── codesnap.png  
 ```
 
 ## 📊 Entity Relationship Diagram (ERD)
