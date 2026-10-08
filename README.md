@@ -57,6 +57,7 @@ Library-Database-System/
 └── sql/
     ├── Library.sql
     ├── SQL_Server_Diagram.JPG
+    ├── TestQueries.sql
     └── Library.bak 
 ```
 
