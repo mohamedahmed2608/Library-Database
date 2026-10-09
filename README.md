@@ -2,7 +2,7 @@
 
 A relational **Library Database System** designed using **Entity-Relationship Modeling (ERD)** and **Relational Schema Mapping**, and implemented using **Microsoft SQL Server**.
 
-The system manages library employees, users, books, authors, publishers, categories, shelves, floors, and book borrowing operations.
+This repository focuses on database design, relational modeling, SQL implementation, and database programming rather than an application or UI layer.
 
 ---
 
