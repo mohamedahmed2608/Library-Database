@@ -82,7 +82,9 @@ The ERD was mapped into a relational database schema using primary keys and fore
 
 [View Schema](./Schema/Schema.png)  
 ![Library Database Schema](./Schema/Schema.png)
+
 [Download Schema Source](./Schema/schema.dio)
+
 ---
 
 ## 🔗 Main Relationships
