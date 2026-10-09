@@ -10,15 +10,14 @@ This repository focuses on database design, relational modeling, SQL implementat
 
 The goal of this project is to design and implement a database that represents the main activities of a library, while applying relational database concepts such as:
 
-* Entity-Relationship Modeling
-* Relational Schema Mapping
-* Primary Keys & Foreign Keys
-* One-to-One / One-to-Many Relationships
-* Many-to-Many Relationships
-* Recursive Relationships
-* Ternary Relationships
-* Data Integrity Constraints
-* SQL Server
+* Managing employees and their supervisors
+* Managing library floors and floor managers
+* Registering library users
+* Managing books, authors, publishers, categories, and shelves
+* Recording users borrowing books transactions
+* Defining relationships between books and authors
+* Enforcing data integrity using keys and constraints
+* Practicing advanced SQL Server features through queries, functions, stored procedures, views, triggers, and security permissions
 
 ---
 
@@ -65,7 +64,8 @@ Library-Database-System/
 
 The Entity-Relationship Diagram representing the entities and relationships of the Library Database System.
 
-[View ERD](./ERD/ERD.png)  
+[View ERD](./ERD/ERD.png) 
+![Library ERD](./ERD/ERD.png)
 [Download ERD Source](./ERD/ERD.dio)
 
 ---
@@ -81,6 +81,7 @@ The Entity-Relationship Diagram representing the entities and relationships of t
 The ERD was mapped into a relational database schema using primary keys and foreign keys to maintain relationships and data integrity.
 
 [View Schema](./Schema/Schema.png)  
+![Library Database Schema](./Schema/Schema.png)
 [Download Schema Source](./Schema/schema.dio)
 ---
 
@@ -103,3 +104,8 @@ The ERD was mapped into a relational database schema using primary keys and fore
 Information Technology Graduate | ASP.NET Backend Developer
 
 * LinkedIn: [Mohamed Ahmed](https://www.linkedin.com/in/mohamedahmed2608/)
+
+---
+## ⭐ Project Purpose
+
+This project was created to practice and demonstrate database analysis, design, SQL Server implementation, and advanced T-SQL concepts as part of my backend development learning journey.
